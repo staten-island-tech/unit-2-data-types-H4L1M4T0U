@@ -39,6 +39,9 @@ if temp < 68:
     print("hmm. Either you like winter, or your an artic animal.")
 
 print(temp)
+print(temp)
+print(temp)
+print(temp)
 
 
 
