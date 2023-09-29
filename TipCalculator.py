@@ -1,6 +1,5 @@
-def the_factors(x) :
-    print("these are  the factors of x :")
-    for i in range(1, x+1) :
-        if x % i == 0 :
-            print(i)
-the_factors(100)
+GCF = [1,3,4,8]
+c =GCF[0]
+b =max(GCF)
+print(b)
+# for lists to rep the first number on the list we can put zero. in probraming we count starting from 0. 0 repping 1)

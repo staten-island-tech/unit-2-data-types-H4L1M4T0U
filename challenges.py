@@ -1,13 +1,13 @@
 #ILL PUT ALL THE CHALLENGES HER SO I DONT  GET CONFUSED!)
 
 #TIP CALCULATOR 
-def the_factors(x) :
+""" def the_factors(x) :
     print("these are  the factors of x :")
     for i in range(1, x+1) :
         if x % i == 0 :
             print(i)
 the_factors(100)
-
+ """
 
 
 #challenge 1
@@ -24,18 +24,17 @@ print(len(broken))
 #CHALLENGE NUMBER 2
 BigQ= input ("TYPE A NUMBER AND I WILL DETERMINE IF ITS EVEN OR ODD")
 
-
+x = int(BigQ)
+print(x)
 y = x % 2
 if y == 0:
-    print("EVEN")
+   print('EVEN')
 elif y > 0:
-    print("ODD")
+   print("ODD")
 
 
 
-
-
-#CHALLENGE NUMBER 2
+#CHALLENGE NUMBER 3
 Tip =input("Thank you for buying at totally not poisoned resturaunt.^^ How was ur service?(answer all lowercase. Choose between bad,okay,good,or great.)")
 if Tip == "bad" :
  print(" 0% :(")
@@ -48,7 +47,7 @@ if Tip == "great" :
 
 
 
-#challenge #3
+#challenge #4
 def the_factors(x) :
     print("these are  the factors of x :")
     for i in range(1, x+1) :
