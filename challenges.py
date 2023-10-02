@@ -1,29 +1,30 @@
-#ILL PUT ALL THE CHALLENGES HER SO I DONT  GET CONFUSED!)
+""" #ILL PUT ALL THE CHALLENGES HER SO I DONT  GET CONFUSED!)
 
 #TIP CALCULATOR 
-""" def the_factors(x) :
+ """
+def the_factors(x) :
+ 
     print("these are  the factors of x :")
     for i in range(1, x+1) :
         if x % i == 0 :
             print(i)
 the_factors(100)
- """
+ 
 
 
 #challenge 1
 
-""" 
-sent = input("please Type A Sentence ")
+
+sent =input("please Type A Sentence ")
 print(sent) #so i can see that this is the variable value I expected
 broken = sent.split( )
 
 print(len(broken))
- """
+
 
 #m" Modulo" is what we use to create this function.(%) the number that is produced is the remainder
 #CHALLENGE NUMBER 2
 BigQ= input ("TYPE A NUMBER AND I WILL DETERMINE IF ITS EVEN OR ODD")
-
 x = int(BigQ)
 print(x)
 y = x % 2
